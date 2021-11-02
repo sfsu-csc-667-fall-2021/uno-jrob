@@ -6,8 +6,8 @@
     "start": "node ./bin/www",
     "start:dev": "NODE_ENV=development DEBUG=uno-jrob:* nodemon ./bin/www",
     "db:create:migration": "npx sequelize migration:generate --name ",
-"db:migrate": "npx sequelize db:migrate",
-"db:rollback": "npx sequelize db:migrate:undo"
+    "db:migrate": "npx sequelize db:migrate",
+    "db:rollback": "npx sequelize db:migrate:undo"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
