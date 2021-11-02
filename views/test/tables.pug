@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  ul#table-list
+    each tableName in tables
+      li
+        a.table-display-link(href="#" data-table-name=tableName)= tableName
+
+  div#tableContainer
+    each entry in results
+      div.hidden(data-table-name=entry.tableName.toLowerCase())
+        h4= entry.tableName
+        table
+          thead
+            tr
+              each field in entry.fields
+                th= field
+          tbody
+            each row in entry.result
+              tr
+                each v, k in row
+                  td= v
