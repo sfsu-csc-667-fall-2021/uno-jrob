@@ -7,7 +7,11 @@
     "start:dev": "NODE_ENV=development DEBUG=uno-jrob:* nodemon ./bin/www",
     "db:create:migration": "npx sequelize migration:generate --name ",
     "db:migrate": "npx sequelize db:migrate",
-    "db:rollback": "npx sequelize db:migrate:undo"
+    "db:rollback": "npx sequelize db:migrate:undo",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -22,6 +26,8 @@
     "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
     "nodemon": "^2.0.13",
     "prettier": "2.4.1"
   }
