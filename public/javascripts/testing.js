@@ -9,7 +9,6 @@ document.querySelector("#table-list").addEventListener("click", (event) => {
 
   Array.from(document.querySelector(`div#tableContainer`).children).forEach(
     (element) => {
-      console.log(element.dataset.tableName, tableName);
       if (element.dataset.tableName === tableName) {
         element.classList.remove("hidden");
       } else if (!element.classList.contains("hidden"))

@@ -1,6 +1,8 @@
 extends layout
 
 block content
+  h1 Tables
+
   ul#table-list
     each tableName in tables
       li
@@ -20,3 +22,5 @@ block content
               tr
                 each v, k in row
                   td= v
+
+  script(src='/javascripts/testing.js')

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Sitemap
+
+  h2 Authenticated Pages
+  ul
+    li
+      a(href='/lobby') Lobby
+    li
+      a(href='/games/0') Game page for ID 0
+
+  h2 Unauthenticated Pages
+  ul
+    li
+      a(href='/') Site Landing (Login)
+    li
+      a(href='/register') Register

@@ -1,9 +1,16 @@
-var express = require("express");
-var router = express.Router();
+const express = require("express");
+const router = express.Router();
 
-/* GET home page. */
-router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express 42" });
+router.get("/", function (request, response, next) {
+  response.render("unauthenticated/landing");
+});
+
+router.get("/register", (request, response) => {
+  response.render("unauthenticated/register");
+});
+
+router.get("/lobby", (request, response) => {
+  response.render("authenticated/lobby");
 });
 
 module.exports = router;
