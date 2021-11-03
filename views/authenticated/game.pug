@@ -2,3 +2,22 @@ extends layout
 
 block content
   h1 Game Page (id: #{id}) (Authenticated)
+
+  h3 Testing card styles
+
+  each c in ['red', 'blue', 'yellow', 'green']
+    each n in ['0','1','2','3','4','5','6','7','8','9','Skip','Reverse','Draw 2']
+      div.card(class=`${c} n-${n.toLowerCase().replace(' ','')}`)
+
+  div.card.wild.n-draw-4
+  div.card.wild.n-wild
+
+  h3 Testing hand styles
+
+  .hand
+    each c in ['red', 'blue', 'yellow', 'green']
+      each n in ['0','1','2','3','4','5','6','7','8','9','Skip','Reverse','Draw 2']
+        div.card(class=`${c} n-${n.toLowerCase().replace(' ','')}`)
+
+    div.card.wild.n-draw-4
+    div.card.wild.n-wild

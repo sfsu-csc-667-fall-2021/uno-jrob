@@ -1,0 +1,414 @@
+.card {
+  display: inline-block;
+  height: 80px;
+  width: 55px;
+  background-image: url("/images/cards.png");
+}
+
+.hand {
+  position: relative;
+}
+
+.hand .card {
+  position: absolute;
+}
+
+.hand .card:hover {
+  top: -50px;
+  border-bottom: 50px transparent;
+}
+
+.hand .card:nth-child(2) {
+  left: 20px;
+}
+.hand .card:nth-child(3) {
+  left: 40px;
+}
+.hand .card:nth-child(4) {
+  left: 60px;
+}
+.hand .card:nth-child(5) {
+  left: 80px;
+}
+.hand .card:nth-child(6) {
+  left: 100px;
+}
+.hand .card:nth-child(7) {
+  left: 120px;
+}
+.hand .card:nth-child(8) {
+  left: 140px;
+}
+.hand .card:nth-child(9) {
+  left: 160px;
+}
+.hand .card:nth-child(10) {
+  left: 180px;
+}
+.hand .card:nth-child(11) {
+  left: 200px;
+}
+.hand .card:nth-child(12) {
+  left: 220px;
+}
+.hand .card:nth-child(13) {
+  left: 240px;
+}
+.hand .card:nth-child(14) {
+  left: 260px;
+}
+.hand .card:nth-child(15) {
+  left: 280px;
+}
+.hand .card:nth-child(16) {
+  left: 300px;
+}
+.hand .card:nth-child(17) {
+  left: 320px;
+}
+.hand .card:nth-child(18) {
+  left: 340px;
+}
+.hand .card:nth-child(19) {
+  left: 360px;
+}
+.hand .card:nth-child(20) {
+  left: 380px;
+}
+.hand .card:nth-child(21) {
+  left: 400px;
+}
+.hand .card:nth-child(22) {
+  left: 420px;
+}
+.hand .card:nth-child(23) {
+  left: 440px;
+}
+.hand .card:nth-child(24) {
+  left: 460px;
+}
+.hand .card:nth-child(25) {
+  left: 480px;
+}
+.hand .card:nth-child(26) {
+  left: 500px;
+}
+.hand .card:nth-child(27) {
+  left: 520px;
+}
+.hand .card:nth-child(28) {
+  left: 540px;
+}
+.hand .card:nth-child(29) {
+  left: 560px;
+}
+.hand .card:nth-child(30) {
+  left: 580px;
+}
+.hand .card:nth-child(31) {
+  left: 600px;
+}
+.hand .card:nth-child(32) {
+  left: 620px;
+}
+.hand .card:nth-child(33) {
+  left: 640px;
+}
+.hand .card:nth-child(34) {
+  left: 660px;
+}
+.hand .card:nth-child(35) {
+  left: 680px;
+}
+.hand .card:nth-child(36) {
+  left: 700px;
+}
+.hand .card:nth-child(37) {
+  left: 720px;
+}
+.hand .card:nth-child(38) {
+  left: 740px;
+}
+.hand .card:nth-child(39) {
+  left: 760px;
+}
+.hand .card:nth-child(40) {
+  left: 780px;
+}
+.hand .card:nth-child(41) {
+  left: 800px;
+}
+.hand .card:nth-child(42) {
+  left: 820px;
+}
+.hand .card:nth-child(43) {
+  left: 840px;
+}
+.hand .card:nth-child(44) {
+  left: 860px;
+}
+.hand .card:nth-child(45) {
+  left: 880px;
+}
+.hand .card:nth-child(46) {
+  left: 900px;
+}
+.hand .card:nth-child(47) {
+  left: 920px;
+}
+.hand .card:nth-child(48) {
+  left: 940px;
+}
+.hand .card:nth-child(49) {
+  left: 960px;
+}
+.hand .card:nth-child(50) {
+  left: 980px;
+}
+.hand .card:nth-child(51) {
+  left: 1000px;
+}
+.hand .card:nth-child(52) {
+  left: 1020px;
+}
+.hand .card:nth-child(53) {
+  left: 1040px;
+}
+.hand .card:nth-child(54) {
+  left: 1060px;
+}
+.hand .card:nth-child(55) {
+  left: 1080px;
+}
+.hand .card:nth-child(56) {
+  left: 1100px;
+}
+.hand .card:nth-child(57) {
+  left: 1120px;
+}
+.hand .card:nth-child(58) {
+  left: 1140px;
+}
+.hand .card:nth-child(59) {
+  left: 1160px;
+}
+.hand .card:nth-child(60) {
+  left: 1180px;
+}
+.hand .card:nth-child(61) {
+  left: 1200px;
+}
+.hand .card:nth-child(62) {
+  left: 1220px;
+}
+.hand .card:nth-child(63) {
+  left: 1240px;
+}
+.hand .card:nth-child(64) {
+  left: 1260px;
+}
+.hand .card:nth-child(65) {
+  left: 1280px;
+}
+.hand .card:nth-child(66) {
+  left: 1300px;
+}
+.hand .card:nth-child(67) {
+  left: 1320px;
+}
+.hand .card:nth-child(68) {
+  left: 1340px;
+}
+.hand .card:nth-child(69) {
+  left: 1360px;
+}
+.hand .card:nth-child(70) {
+  left: 1380px;
+}
+.hand .card:nth-child(71) {
+  left: 1400px;
+}
+.hand .card:nth-child(72) {
+  left: 1420px;
+}
+.hand .card:nth-child(73) {
+  left: 1440px;
+}
+.hand .card:nth-child(74) {
+  left: 1460px;
+}
+.hand .card:nth-child(75) {
+  left: 1480px;
+}
+.hand .card:nth-child(76) {
+  left: 1500px;
+}
+.hand .card:nth-child(77) {
+  left: 1520px;
+}
+.hand .card:nth-child(78) {
+  left: 1540px;
+}
+.hand .card:nth-child(79) {
+  left: 1560px;
+}
+.hand .card:nth-child(80) {
+  left: 1580px;
+}
+.hand .card:nth-child(81) {
+  left: 1600px;
+}
+.hand .card:nth-child(82) {
+  left: 1620px;
+}
+.hand .card:nth-child(83) {
+  left: 1640px;
+}
+.hand .card:nth-child(84) {
+  left: 1660px;
+}
+.hand .card:nth-child(85) {
+  left: 1680px;
+}
+.hand .card:nth-child(86) {
+  left: 1700px;
+}
+.hand .card:nth-child(87) {
+  left: 1720px;
+}
+.hand .card:nth-child(88) {
+  left: 1740px;
+}
+.hand .card:nth-child(89) {
+  left: 1760px;
+}
+.hand .card:nth-child(90) {
+  left: 1780px;
+}
+.hand .card:nth-child(91) {
+  left: 1800px;
+}
+.hand .card:nth-child(92) {
+  left: 1820px;
+}
+.hand .card:nth-child(93) {
+  left: 1840px;
+}
+.hand .card:nth-child(94) {
+  left: 1860px;
+}
+.hand .card:nth-child(95) {
+  left: 1880px;
+}
+.hand .card:nth-child(96) {
+  left: 1900px;
+}
+.hand .card:nth-child(97) {
+  left: 1920px;
+}
+.hand .card:nth-child(98) {
+  left: 1940px;
+}
+.hand .card:nth-child(99) {
+  left: 1960px;
+}
+.hand .card:nth-child(100) {
+  left: 1980px;
+}
+.hand .card:nth-child(101) {
+  left: 2000px;
+}
+.hand .card:nth-child(102) {
+  left: 2020px;
+}
+.hand .card:nth-child(103) {
+  left: 2040px;
+}
+.hand .card:nth-child(104) {
+  left: 2060px;
+}
+.hand .card:nth-child(105) {
+  left: 2080px;
+}
+.hand .card:nth-child(106) {
+  left: 2100px;
+}
+.hand .card:nth-child(107) {
+  left: 2120px;
+}
+.hand .card:nth-child(108) {
+  left: 2140px;
+}
+.hand .card:nth-child(109) {
+  left: 2160px;
+}
+
+.card.red {
+  background-position-y: 0px;
+}
+
+.card.blue {
+  background-position-y: -89px;
+}
+
+.card.yellow {
+  background-position-y: -177px;
+}
+
+.card.green {
+  background-position-y: -266px;
+}
+
+.card.wild {
+  background-position-y: -354px;
+}
+
+.card.n-1,
+.card.n-draw-4 {
+  background-position-x: -62px;
+}
+
+.card.n-2,
+.card.n-wild {
+  background-position-x: -124px;
+}
+
+.card.n-3 {
+  background-position-x: -186px;
+}
+
+.card.n-4 {
+  background-position-x: -248px;
+}
+
+.card.n-5 {
+  background-position-x: -310px;
+}
+
+.card.n-6 {
+  background-position-x: -372px;
+}
+
+.card.n-7 {
+  background-position-x: -434px;
+}
+
+.card.n-8 {
+  background-position-x: -496px;
+}
+
+.card.n-9 {
+  background-position-x: -558px;
+}
+
+.card.n-skip {
+  background-position-x: -620px;
+}
+
+.card.n-reverse {
+  background-position-x: -682px;
+}
+
+.card.n-draw-2 {
+  background-position-x: -744px;
+}
